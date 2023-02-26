@@ -1,0 +1,39 @@
+Name:               Neil Dandekar
+Class [Section]:    CIS 35A [36Y]
+Assignment Number:  -1
+Due Date:           01.18.2023
+Date Submitted:     01.14.2023
+__________________________________
+
+Enter a temperature in Celsius: 0
+0.00 degrees Celsius is equivalent to 32.00 degrees Fahrenheit.
+
+Enter a temperature in Fahrenheit: 32
+32.00 degrees Fahrenheit is equivalent to 0.00 degrees Celsius.
+
+Enter a temperature in Celsius: -15
+-15.00 degrees Celsius is equivalent to 5.00 degrees Fahrenheit.
+
+Enter a temperature in Fahrenheit: 73.2
+73.20 degrees Fahrenheit is equivalent to 22.89 degrees Celsius.
+
+Enter a temperature in Celsius: 3.14159
+3.14 degrees Celsius is equivalent to 37.65 degrees Fahrenheit.
+
+Enter a temperature in Fahrenheit: 234
+234.00 degrees Fahrenheit is equivalent to 112.22 degrees Celsius.
+
+Enter a temperature in Celsius: -132
+-132.00 degrees Celsius is equivalent to -205.60 degrees Fahrenheit.
+
+Enter a temperature in Fahrenheit: 34
+34.00 degrees Fahrenheit is equivalent to 1.11 degrees Celsius.
+
+Enter a temperature in Celsius: -65
+-65.00 degrees Celsius is equivalent to -85.00 degrees Fahrenheit.
+
+Enter a temperature in Fahrenheit: 97
+97.00 degrees Fahrenheit is equivalent to 36.11 degrees Celsius.
+
+Thank you for using my program. 
+-Neil Dandekar, 01.14.2023
