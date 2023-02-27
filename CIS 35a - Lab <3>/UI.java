@@ -52,16 +52,18 @@ public class UI {
 
             // Print appropriate operation on appropriate store:
             System.out.println();
-            f.getStores(store).print(operation);
+            f.getStores(store-1).print(operation);
             System.out.println();
 
             // Reset input buffer:
             scan.nextLine();
+
+            System.out.printf("\n");
         }
         // Close Scanner to prevent resource leak:
         scan.close();
 
         // Thank you statement:
-        System.out.printf("%nThank you for using my program. %n-Neil Dandekar, 02.19.2023%n");
+        System.out.printf("\nThank you for using my program. \n-Neil Dandekar, 02.19.2023\n");
     }
 }

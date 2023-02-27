@@ -70,16 +70,15 @@ public class Store {
 	public void calcWeekWithHighestSales() {
 		this.weekWithHighestSales = 0;
 		float max = totalSalesByWeek[0];
-		for(int i = 1; i < totalSalesByWeek.length; i++) {
+		for(int i = 0; i < totalSalesByWeek.length; i++) {
 			if(totalSalesByWeek[i] > max) {
 				max = totalSalesByWeek[i];
 				this.weekWithHighestSales = i;
 			}
 		}
-		System.out.println("HIGHEST WEEK: " + (weekWithHighestSales + 1) + " WITH $" + totalSalesByWeek[weekWithHighestSales]);
 	}
 	public void calcWeekWithLowestSales() {
-        this.weekWithHighestSales = 0;
+        this.weekWithLowestSales = 0;
 		float min = totalSalesByWeek[0];
 		for(int i = 1; i < totalSalesByWeek.length; i++) {
 			if(totalSalesByWeek[i] < min) {
@@ -132,14 +131,14 @@ public class Store {
 			
 			// WEEK WITH HIGHEST SALES:
 			case 5: 
-			System.out.printf("Week with highest sales: %d [$%.2f]", weekWithHighestSales, 
-			totalSalesByWeek[weekWithHighestSales+1]);
+			System.out.printf("Week with highest sales: %d [$%.2f]", weekWithHighestSales+1, 
+			totalSalesByWeek[weekWithHighestSales]);
 			break;
 			
 			// WEEK WITH LOWEST SALES:
 			case 6: 
-			System.out.printf("Week with lowest sales: %d [$%.2f]", weekWithLowestSales, 
-			totalSalesByWeek[weekWithLowestSales+1]);
+			System.out.printf("Week with lowest sales: %d [$%.2f]", weekWithLowestSales+1, 
+			totalSalesByWeek[weekWithLowestSales]);
 			break;
 
 			// PRINT DATA:
@@ -149,15 +148,14 @@ public class Store {
 				
 			// ALL OPERATIONS:
 			case 8:
-			for(int i = 1; i < 9; i++) {
+			for(int i = 1; i < 8; i++) {
 				this.print(i);
-				System.out.printf("\n");
+				if(i != 7) System.out.printf("\n\n");
 			}
 			break;
 
 			default:
 				break;
 		}
-		System.out.println();
 	}
 }
