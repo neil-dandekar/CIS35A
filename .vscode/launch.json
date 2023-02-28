@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch code",
+            "request": "launch",
+            "mainClass": "code",
+            "projectName": "CIS35A_23cb868b"
+        },
+        {
+            "type": "java",
+            "name": "Launch DNADriver",
+            "request": "launch",
+            "mainClass": "DNADriver",
+            "projectName": "CIS35A_23cb868b"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

@@ -1,8 +1,8 @@
 // Name:               Neil Dandekar
 // Class [Section]:    CIS 35A [36Y]
-// Assignment Number:  2
-// Due Date:           02.12.2023
-// Date Submitted:     02.09.2023
+// Assignment Number:  3-EC
+// Due Date:           02.26.2023
+// Date Submitted:     02.26.2023
 // __________________________________
 
 public class HumanGenome {
