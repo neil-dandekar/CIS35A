@@ -1,3 +1,10 @@
+// Name:               Neil Dandekar
+// Class [Section]:    CIS 35A [36Y]
+// Assignment Number:  5
+// Due Date:           03.07.2023
+// Date Submitted:     03.07.2023
+// __________________________________
+
 package driver;
 import util.*;
 import model.*;
@@ -29,6 +36,9 @@ public class Driver {
         
         // Print the data
         statStudents.print(4);
+
+        // Thank you statement:
+        System.out.printf("\n\nThank you for using my program. \n-Neil Dandekar, 03.07.2023\n"); 
     }   
 }
 
@@ -40,6 +50,9 @@ public class Driver {
     High Scores:    0       0       0       0       0 
     Average Scores: 0.00    0.00    0.00    0.00    0.00 
 
+    Thank you for using my program. 
+    -Neil Dandekar, 03.07.2023
+
 END TEST RUN 1*/
 
 /* TEST RUN 2 (HEADER + 1 RECORD):
@@ -50,6 +63,9 @@ END TEST RUN 1*/
     Low Scores:     52      7       100     78      34 
     High Scores:    52      7       100     78      34 
     Average Scores: 52.00   7.00    100.00  78.00   34.00
+
+    Thank you for using my program. 
+    -Neil Dandekar, 03.07.2023
 
 END TEST RUN 2*/
 
@@ -75,6 +91,9 @@ END TEST RUN 2*/
     Low Scores:     0       7       0       32      10 
     High Scores:    100     100     100     90      80 
     Average Scores: 46.20   42.33   70.47   75.67   49.73
+
+    Thank you for using my program. 
+    -Neil Dandekar, 03.07.2023
 
 END TEST RUN 3*/
 
@@ -125,6 +144,9 @@ END TEST RUN 3*/
     High Scores:    100     100     100     90      80 
     Average Scores: 47.62   40.67   69.33   75.31   49.64
 
+    Thank you for using my program. 
+    -Neil Dandekar, 03.07.2023
+
 END TEST RUN 4*/
 
 /* TEST RUN 5 (HEADER + 42 RECORDS): 
@@ -173,5 +195,8 @@ END TEST RUN 4*/
     Low Scores:     0       7       0       32      10 
     High Scores:    100     100     100     90      80 
     Average Scores: 47.62   40.67   69.33   75.31   49.64
+
+    Thank you for using my program. 
+    -Neil Dandekar, 03.07.2023
 
 END TEST RUN 5*/
