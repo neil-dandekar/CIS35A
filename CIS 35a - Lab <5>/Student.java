@@ -1,45 +1,48 @@
 class Student {
-
+    // PROPERTIES
     private int SID; // Student ID
-
     private int scores[] = new int[5]; // Student Scores
 
-
-    // METHODS
-        // GETTERS
-    public int getSID() {
-        return SID;
-    }
-    public int[] getScores() {
-        return scores;
-    }
-    public int getScore(int index) {
-        return scores[index];
-    }
-        // SETTERS
-    public void setSID(int sID) {
+    // CONSTRUCTORS
+    public Student(int sID, int[] scores) {
         SID = sID;
-    }
-    public void setScores(int[] scores) {
         this.scores = scores;
     }
-    public void setScore(int index, int score) {
+    
+    // METHODS
+        // GETTERS
+    public int getSID() { // Returns Student ID
+        return SID;
+    }
+    public int getScore(int index) { // Returns individual score at given index [0-4]
+        return scores[index];
+    }
+    public int[] getScores() { // Returns Student Score array
+        return scores;
+    }
+        // SETTERS
+    public void setSID(int sID) { // Sets Student ID
+        SID = sID;
+    }
+    public void setScores(int[] scores) { // Sets Student Score array
+        this.scores = scores;
+    }
+    public void setScore(int index, int score) { // Sets individual Student Score at given index [0-4]
         this.scores[index] = score;
     }
-    
-    //add methods to print values of instance variables.
+        // INSTANCE
     public void printSID() {
-        System.out.printf("%d ", SID);
+        System.out.printf("%d ", SID); // Prints Student ID
     }
-    public void printScore(int index) {
-        System.out.printf("%d ", scores[index]);
+    public void printScore(int index) { // Prints individual Student Score at given index [0-4]
+        System.out.printf("%d ", scores[index]); 
     }
-    public void printScores() {
+    public void printScores() { // Prints all Student Scores
         for (int i = 0; i < scores.length; i++) {
             this.printScore(i);
         }
     }
-    public void print() {
+    public void print() { // Prints both Student ID and all Student Scores
         printSID();
         printScores();
     }
