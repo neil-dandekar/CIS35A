@@ -1,11 +1,13 @@
-class Student {
+package model;
+
+public class Student {
     // PROPERTIES
     private int SID; // Student ID
     private int scores[] = new int[5]; // Student Scores
 
     // CONSTRUCTORS
-    public Student(int sID, int[] scores) {
-        SID = sID;
+    public Student(int SID, int[] scores) {
+        this.SID = SID;
         this.scores = scores;
     }
     
@@ -32,10 +34,10 @@ class Student {
     }
         // INSTANCE
     public void printSID() {
-        System.out.printf("%d ", SID); // Prints Student ID
+        System.out.printf("%d \t", SID); // Prints Student ID
     }
     public void printScore(int index) { // Prints individual Student Score at given index [0-4]
-        System.out.printf("%d ", scores[index]); 
+        System.out.printf("%d \t", scores[index]); 
     }
     public void printScores() { // Prints all Student Scores
         for (int i = 0; i < scores.length; i++) {
@@ -46,4 +48,10 @@ class Student {
         printSID();
         printScores();
     }
+
+    // public static void main(String[] args) {
+    //     int scores[] = {1, 2, 3, 4, 5};
+    //     Student s1 = new Student(1234, scores);
+    //     s1.print();
+    // }
 }
