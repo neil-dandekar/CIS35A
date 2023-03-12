@@ -12,7 +12,7 @@ public class UI {
     Franchise f;
 
     // CONSTRUCTOR(S)
-    UI(Franchise f) {
+    public UI(Franchise f) {
         this.f = f;
     }
 

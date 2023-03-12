@@ -1,15 +1,15 @@
 Name:               Neil Dandekar
 Class [Section]:    CIS 35A [36Y]
-Assignment Number:  2
-Due Date:           02.12.2023
-Date Submitted:     02.09.2023
+Assignment Number:  3
+Due Date:           02.19.2023
+Date Submitted:     02.19.2023
 __________________________________
 
 Hello.
 
 ** All code is formatted so that it is easy to read with comments documenting the functionality.
 
-GENOME_INPUT:
+DRIVER:
 * 'Driver.java' is the Driver and contains main. Sample output is provided at the bottom.
 * Instructions: Run this file just like any other java file and answer the questions printed to console with 
 keyboard input
@@ -142,7 +142,7 @@ STORE:
     
     * Processing 
         * GETTER METHODS: 
-            - float getTotalSalesForWeek(int week)
+            - public float getTotalSalesForWeek(int week)
             Getter methods take must be called using an instance of the class. They return the respective instance 
             variable. For example, getTotalSalesForWeek() returns the total sales for a specified week.
 
@@ -162,10 +162,10 @@ STORE:
 		    - public void calcWeekWithLowestSales()
             - public void analyzeResults()
 		    - public void print(int x)
-            The calculation methods calculate the values based on the data stored in salesByWeek[][] set the corresponding
-            instance variables. printData() prints all the sales data for the Store object. print() will print one of 6 
-            operations (each corresponding to a different instance variable) based on the input parameter, or printData() or
-            all of the above.
+            The calculation methods calculate the values based on the data stored in salesByWeek[][] and initialize the 
+            corresponding instance variables. printData() prints all the sales data for the Store object. print() will print
+            one of 6 operations (each corresponding to a different instance variable) based on the input parameter, or 
+            printData() or all of the above.
 
         * Output
             * N/A
@@ -185,9 +185,17 @@ UI:
     * Processing
         * INSTANCE METHODS:
             - public void play()
-            Prints instructions for user to select an operation to use on the given Franchise object. Uses a Scanner object 
-            to take user input.
+            Creates interactive UI for user to visualize data from Franchise object. Prints instructions for user to select an 
+            operation to use on the given Franchise object. Uses a Scanner object to take user input, then runs one of 8 operations:
+            1. Print Total Sales by Week
+            2. Print Average Sales by Week
+            3. Print Total Sales
+            4. Print Average Weekly Sales
+            5. Print Week with Highest Sales
+            6. Print Week with Lowest Sales
+            7. Print Data
+            8. All Above Operations
 
 
 Thank you for using my program.
--Neil Dandekar, 02.09.2023
+-Neil Dandekar, 02.19.2023

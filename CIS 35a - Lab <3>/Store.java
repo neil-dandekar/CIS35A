@@ -16,7 +16,7 @@ public class Store {
 	private int weekWithLowestSales;
 	
 	// CONSTRUCTOR(S)
-	Store() {
+	public Store() {
 		avgSalesByWeek = new float[5];
 		salesByWeek = new float[5][7];
 		totalSalesByWeek = new float[5];
@@ -24,7 +24,7 @@ public class Store {
 
 	// METHODS
 		// GETTER(S)
-	float getTotalSalesForWeek(int week) {
+	public float getTotalSalesForWeek(int week) {
 		float total = 0;
 		for(int i = 0; i < 7; i++) {
 			total += salesByWeek[week][i];
